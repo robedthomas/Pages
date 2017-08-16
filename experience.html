@@ -1,0 +1,161 @@
+<!doctype html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+    <!--Import Google Icon Font-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--Import materialize.css-->
+	<link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+	<!--Import local stylesheet-->
+	<link type="text/css" rel="stylesheet" href="stylesheets/stylesheet.css"/>
+	<!--Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Robert Thomas</title>
+	<meta name="description" content="Professional Profile of Robert Thomas">
+	<meta name="author" content="Robert Thomas">
+</head>
+
+<body>
+	<header>
+		<!--Nav bar-->
+		<div class="container">
+			<div class="row">
+				<nav>
+					<div class="col s12">
+						<div class="nav-wrapper">
+							<a class="brand-logo">
+								<h3 style="margin-top: 15px">Robert Thomas</h3>
+							</a>
+							<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+							<ul id="nav-mobile" class="right hide-on-med-and-down">
+								<li><a href="index.html">Home</a></li>
+								<li class="active"><a id="experience-link" href="experience.html">Experience</a></li>
+								<li><a href="resume.html">Resume</a></li>
+								<li><a href="contact.html">Contact</a></li>
+								<li><a href="about.html">About</a></li>
+							</ul>
+							<ul id="mobile-demo" class="side-nav">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="experience.html">Experience</a></li>
+								<li><a href="resume.html">Resume</a></li>
+								<li><a href="contact.html">Contact</a></li>
+								<li><a href="about.html">About</a></li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<main>
+	<!--Projects Intro-->
+	<div class="container">
+		<div class="container colorbox dark z-depth-2" style="padding-top: 0;">
+			<div class="valign-wrapper" style="position: relative;">
+				<div class="circle tag-background"></div>
+				<div class="valign-wrapper center-align tag-wrapper">
+					<i class="material-icons medium center-align tag-icon">import_contacts</i>
+				</div>
+				<p class="centered light bold medium" style="margin-left: auto; margin-right: auto;"> Below is a list of my most meaningful and challenging projects, both personal and for classes.</p>
+			</div>
+		</div>
+	</div>
+	<!--Projects-->
+	<div class="container">
+		<ul class="collapsible accordion" data-collapsible="expandable">
+			<li>
+				<div class="collapsible-header">
+					<span class="project-title">Project 1 Name</span>
+				</div>
+				<div class="collapsible-body project-body">
+					<div class="row">
+						<div class="col l7 m12 s12">
+							<p>Project Picture</p>
+						</div>
+						<div class="col l5 m12 s12">
+							<p>Project Description... ... ...
+						</div>
+					</div>
+					<div class="divider grey lighten-1"></div>
+					<div class="row button-row">
+						<div class="button-holder">
+							<a href="#" class="waves-effect waves-light btn-large code-button">View Code</a>
+						</div>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<!--Experience Intro-->
+	<div class="container">
+		<div class="container colorbox dark z-depth-2" style="padding-top: 0;">
+			<div class="valign-wrapper" style="position: relative;">
+				<div class="circle tag-background"></div>
+				<div class="valign-wrapper center-align tag-wrapper">
+					<i class="material-icons medium center-align tag-icon">assignment_ind</i>
+				</div>
+				<p class="centered light bold medium" style="margin-left: auto; margin-right: auto;"> My Professional Experience in Software Engineering</p>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<ul class="collapsible accordion experience-list" data-collapsible="expandable">
+			<li>
+				<div class="collapsible-header experience-header">
+					<span class="experience-title">Experience 1 Position - Company</span>
+				</div>
+				<div class="collapsible-body experience-body">
+					<div class="row paper-background-row">
+						<div class="col s12 paper-background">
+						</div>
+					</div>
+					<div class="row experience-body-row">
+						<div class="col l5 m6 s12">
+							<span>Job Description and Duties... ... ...</span>
+						</div>
+						<div class="col l7 m6 s12">
+							<span>What I Learned and Took Away... ... ...</span>
+						</div>
+					</div>
+				</div>
+				<div class="experience-footer">
+					<span class="experience-contact">Experience Footer, contact info and dates</span>
+				</div>
+			</li>
+		</ul>
+	</div>
+	</main>
+	<!-- Footer -->
+	<footer class="page-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col s12">
+					<h5> Thanks for visiting! </h5>
+					<span> Reach me at: <a href="mailto:robedthomas@yahoo.com">robedthomas@yahoo.com</a>, or (847) 274 9994.</span>
+					<div class="right">
+						<a href="https://www.linkedin.com/in/robert-thomas-bb8820131/">
+							<img src="images/linked-in.png">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<div class="container">
+			</div>
+		</div>
+	</footer>
+	<!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+    <script> 
+    	$(document).ready(function(){
+    		$(".button-collapse").sideNav();
+    	});
+    </script>
+    <!--Import local scripts-->
+    <script type="text/javascript" src="javascript/scripts.js"></script>
+    <!--Fill experience boxes with light and dark paper rows.-->
+</body>
+</html>

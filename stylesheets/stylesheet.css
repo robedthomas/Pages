@@ -1,0 +1,303 @@
+body {
+	background-color: #DAD6D5;
+	font-color: #1A2930;
+}
+
+nav {
+	background-color: #0A1612;
+}
+
+/*#nav-mobile {
+	margin-left: 45rem;
+}*/
+
+li, a {
+	display: inline-block;
+	text-align: center;
+}
+
+ul.collapsible {
+	border: none;
+}
+
+ul.collapsible li {
+	display: initial;
+	text-align: left;
+	border: none;
+}
+
+div.collapsible-header {
+	background-color: #0A1612;
+	color: #DAD6D5;
+	border-bottom: thin solid #05110D;
+}
+
+div.collapsible-body {
+	border: none;
+}
+
+ul#nav-mobile li.active {
+	background-color: #1A2930;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+ul#nav-mobile li a:hover {
+	background-color: #050505;
+}
+
+a#experience-link:hover {
+	margin-right: -2px;
+}
+
+a#examples-link:hover {
+	margin-right: -1px;
+}
+
+div.row#intro {
+	background-color: #0A1612;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+	color: #DAD6D5;
+}
+
+#greeting {
+	font-size: 3.3rem;
+	font-family: Courier;
+}
+
+.outer-talkbox {
+	margin-top: 7rem;
+	padding-left: 4rem;
+}
+
+.inner-talkbox {
+	margin-top: 1rem;
+	padding-left: 0rem;
+}
+
+.container.colorbox.dark {
+	background-color: #0A1612;
+	color: white;
+	padding-top: 0.7rem;
+}
+
+.container.colorbox.med {
+	background-color: #1A2930;
+	color: white;
+	padding-top: 0.7rem;
+}
+
+.container.colorbox.light {
+	background-color: #F7CE3E;
+	padding-top: 0.7rem;
+}
+
+div.colorbox.dark div.row {
+	margin: 0.6% 2% 1.5% 2%;
+}
+
+div.colorbox.dark div.row div.colorbox.med {
+	width: 100%;
+}
+
+.box-title {
+	margin-left: 1rem;
+}
+
+.card.work-describer {
+	background-color: #F7CE3E;
+}
+
+.card-content.work-description {
+	color: #0A1612;
+	font-weight: 500;
+}
+
+.card-title.work-title {
+	font-weight: 400 !important;
+}
+
+.card-action.work-links {
+	background-color: #0A1612;
+}
+
+a.work-link {
+	color: white !important;
+}
+
+footer {
+	color: #0A1612 !important;
+	background-color: #F7CE3E !important;
+	border-top: solid thick #1A2930;
+}
+
+.footer-copyright {
+	background-color: #0A1612 !important;
+}
+
+footer a {
+	color: #0A1612;
+	font-weight: 300;
+}
+
+div.centered {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%); 
+}
+
+p.centered {
+	text-align: center;
+	padding-left: 2em;
+	padding-right: 2em;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+p.light {
+	color: #F7CE3E;
+}
+
+p.bold {
+	font-weight: 400;
+}
+
+p.medium {
+	font-size: 18px;
+}
+
+div.tag-wrapper {
+	position: absolute; 
+	left: -2.5em; 
+	width: 5em; 
+	height: 100%;
+}
+
+div.tag-background {
+	position: absolute;
+	text-align: center; 
+	margin-left: auto; 
+	margin-right: auto;
+	border-radius: 50%;
+	left: -2.5em;
+	width: 5em;
+	height: 5em;
+	background: #1A2930;
+}
+
+i.tag-icon {
+	text-align: center; 
+	margin-left: auto; 
+	margin-right: auto;
+	color: #F7CE3E;
+}
+
+span.project-title {
+	float: right;
+	color: white;
+	font-size: 1.8em;
+	font-weight: 300;
+	padding-left: 0.5em;
+	border-left: thin solid #DAD6D5;
+}
+
+div.project-body {
+	border-left: medium solid #1A2930;
+	border-right: medium solid #1A2930;
+	border-bottom: medium solid #1A2930;
+}
+
+div.row.button-row {
+	margin-top: 2em;
+	margin-bottom: 0;
+	display: inline-block;
+	width: 100%;
+}
+
+div.button-holder {
+	float: right;
+}
+
+a.code-button {
+	background-color: #1A2930 !important;
+}
+
+div.collapsible-header.experience-header {
+	background-color: #1A2930;
+}
+
+div.collapsible-body.experience-body {
+	position: relative;
+}
+
+div.experience-footer {
+	width: 100%;
+	height: 3.5em;
+	background-color: #1A2930;
+}
+
+.experience-title {
+	font-size: 1.5em;
+	font-weight: 300;
+}
+
+.experience-contact {
+	font-size: 1.1em;
+	color: #DAD6D5;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+div.collapsible-body.experience-body div.row.experience-body-row {
+	position: absolute;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+div.row.paper-background-row {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: repeating-linear-gradient(
+		0deg, #F8F8F8, #F8F8F8 20px, #DBDBDB 20px, #DBDBDB 40px
+		);
+}
+
+div.col.paper-background {
+	position: absolute;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	left: 0;
+	background: repeating-linear-gradient (
+		0deg, white, white 25px, black 25px, black 50px
+		);
+}
+
+div.row.paper-row {
+	height: 25px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+div.row.paper-row.light {
+	background-color: white;
+}
+
+div.row.paper-row.dark {
+	background-color: green;
+}
