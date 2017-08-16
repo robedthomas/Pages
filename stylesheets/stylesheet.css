@@ -301,3 +301,17 @@ div.row.paper-row.light {
 div.row.paper-row.dark {
 	background-color: green;
 }
+
+object {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1em;
+	border: thick solid #0A1612;
+}
+
+div.valign-wrapper.centered-valign-wrapper {
+	display: block;
+	margin-left: auto; 
+	margin-right: auto;
+}
