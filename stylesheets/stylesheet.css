@@ -143,6 +143,14 @@ footer a {
 	font-weight: 300;
 }
 
+.no-top-padding {
+	padding-top: 0 !important;
+}
+
+.relative-position {
+	position: relative;
+}
+
 div.centered {
 	margin-left: auto;
 	margin-right: auto;
@@ -171,6 +179,10 @@ p.medium {
 	font-size: 18px;
 }
 
+p.large {
+	font-size: 18px;
+}
+
 div.tag-wrapper {
 	position: absolute; 
 	left: -2.5em; 
@@ -191,6 +203,14 @@ div.tag-background {
 }
 
 i.tag-icon {
+	text-align: center; 
+	margin-left: auto; 
+	margin-right: auto;
+	color: #F7CE3E;
+}
+
+i.experience-tag-icon {
+	font-size: 3em;
 	text-align: center; 
 	margin-left: auto; 
 	margin-right: auto;
@@ -275,7 +295,7 @@ div.row.paper-background-row {
 		);
 }
 
-div.col.paper-background {
+/*div.col.paper-background {
 	position: absolute;
 	height: 100%;
 	margin: 0;
@@ -285,7 +305,7 @@ div.col.paper-background {
 	background: repeating-linear-gradient (
 		0deg, white, white 25px, black 25px, black 50px
 		);
-}
+}*/
 
 div.row.paper-row {
 	height: 25px;
@@ -314,4 +334,40 @@ div.valign-wrapper.centered-valign-wrapper {
 	display: block;
 	margin-left: auto; 
 	margin-right: auto;
+}
+
+.card.contact-describer {
+	background-color: white;
+}
+
+.card-content.contact-description {
+	color: #1A2930;
+	font-weight: 500;
+	padding: 0;
+}
+
+.card-action.contact-footer{
+	background-color: #1A2930;
+}
+
+.card-title.contact-title {
+	font-weight: 400 !important;
+}
+
+
+.card-content.contact-description div.row.title-row {
+	margin-bottom: 0;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-top: 0.5em;
+}
+
+.card-content.contact-description div.row.striped-row {
+	margin-bottom: 0;
+	display: block;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	background: repeating-linear-gradient(
+		0deg, #F8F8F8, #F8F8F8 22px, #DBDBDB 22px, #DBDBDB 44px
+		);
 }
