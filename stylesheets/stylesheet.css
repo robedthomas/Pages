@@ -336,38 +336,80 @@ div.valign-wrapper.centered-valign-wrapper {
 	margin-right: auto;
 }
 
-.card.contact-describer {
-	background-color: white;
+div.container.colorbox.contact-card-container {
+	max-width: 38em;
+	min-width: 30em;
+	margin-bottom: 2em;
 }
 
-.card-content.contact-description {
+div.card.contact-describer {
+	background-color: white;
+	min-width: 26em;
+	max-width: 34em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.card-content.contact-description {
 	color: #1A2930;
 	font-weight: 500;
 	padding: 0;
 }
 
-.card-action.contact-footer{
+div.card-action.contact-footer{
 	background-color: #1A2930;
 }
 
-.card-title.contact-title {
+span.card-title.contact-title {
 	font-weight: 400 !important;
+	font-size: 1.4em;
 }
 
+span.card-title.contact-title.reference-name {
+	font-weight: 500 !important;
+	color: #1A2930;
+}
 
-.card-content.contact-description div.row.title-row {
+div.card-content.contact-description div.row.title-row {
 	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
 	padding-left: 2em;
 	padding-right: 2em;
 	padding-top: 0.5em;
+	border-bottom: solid thin #BBBBBB;
 }
 
-.card-content.contact-description div.row.striped-row {
-	margin-bottom: 0;
+div.card-content.contact-description div.row.striped-row {
+	margin: 0;
 	display: block;
 	padding-left: 1.5em;
 	padding-right: 1.5em;
 	background: repeating-linear-gradient(
 		0deg, #F8F8F8, #F8F8F8 22px, #DBDBDB 22px, #DBDBDB 44px
 		);
+	min-height: 110px;
+}
+
+div.card-content.contact-description div.row.striped-row p.single-line {
+	height: 22px;
+	font-weight: 500;
+}
+
+div.card-content.contact-description div.row.striped-row p.single-line span {
+	font-weight: 400;
+}
+
+div.card-content.contact-description div.row.striped-row p a.email {
+	font-style: italic;
+	color: black;
+}
+
+div.card-content.contact-description div.row.striped-row a.email:hover {
+	font-weight: bold;
+}
+
+.block-display {
+	display: block;
 }
