@@ -336,6 +336,35 @@ div.valign-wrapper.centered-valign-wrapper {
 	margin-right: auto;
 }
 
+#talkbubble {
+	width: 22em;
+	height: 10em;
+	color: #F7CE3E;
+	background-color: #1A2930;
+	position: relative;
+	-moz-border-radius:    10px;
+	-webkit-border-radius: 10px;
+	border-radius:         10px;
+	text-align: center;
+}
+
+#talkbubble:before {
+	content:"";
+	position: absolute;
+	right: 100%;
+	top: 26px;
+	width: 0;
+	height: 0;
+	border-top: 13px solid transparent;
+	border-right: 26px solid #1A2930;
+	border-bottom: 13px solid transparent;
+}
+
+#talkbubble p {
+	font-size: 1.5em;
+	font-family: Courier;
+}
+
 div.container.colorbox.contact-card-container {
 	max-width: 38em;
 	min-width: 30em;
@@ -343,18 +372,17 @@ div.container.colorbox.contact-card-container {
 }
 
 div.container.colorbox.reference-container {
-	max-width: 70em;
+	max-width: 60em;
 	min-width: 58em;
 	margin-bottom: 2em;
 }
 
 div.card.contact-describer {
 	background-color: white;
-	min-width: 26em;
-	max-width: 34em;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	width: 26em;
+	display: inline-block;
+	margin-left: 3%;
+	margin-right: 3%;
 }
 
 div.card-content.contact-description {
@@ -418,4 +446,36 @@ div.card-content.contact-description div.row.striped-row a.email:hover {
 
 .block-display {
 	display: block;
+}
+
+div.container.references-box {
+	min-width: 30em;
+}
+
+div.reference-card-container {
+	background-color: #0A1612;
+	text-align: justify;
+	width: 100%;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+div.reference-card-container:after {
+	display:inline-block;
+    width:100%;
+    content:'';
+}
+
+.full-width {
+	width: 100%;
+}
+
+.justified {
+	text-align: justify;
+}
+
+.justified:after {
+	display:inline-block;
+    width:100%;
+    content:'';
 }
