@@ -342,6 +342,12 @@ div.container.colorbox.contact-card-container {
 	margin-bottom: 2em;
 }
 
+div.container.colorbox.reference-container {
+	max-width: 70em;
+	min-width: 58em;
+	margin-bottom: 2em;
+}
+
 div.card.contact-describer {
 	background-color: white;
 	min-width: 26em;
