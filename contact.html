@@ -51,11 +51,11 @@
 	<main>
 	<div class="container">
 		<!--Personal Contact Info-->
-		<div class="row">
+		<div class="row hide-on-small-only">
 			<div class="valign-wrapper">
 				<div class="col s12 m6 l6" style="padding-right: 0">
-					<img src="images/headshot-mini.jpg" class="circle responsive-img z-depth-4">
-					<div id="talkbubble" class="right" style="display: block; margin: auto 0;">
+					<div id="talkbubble" class="right relative-position" style="display: block; margin: auto 0;">
+						<img src="images/headshot-mini.jpg" class="mini-headshot circle responsive-img z-depth-4 absolute-position">
 						<div class="valign-wrapper" style="height: 100%">
 							<p class="center-align" style="margin: 0 auto;"> How to contact me: </p>
 						</div>
@@ -77,10 +77,35 @@
 		            </div>
 	        	</div>
     		</div>
+    	</div>
+    	<div class="row hide-on-med-and-up">
+			<div class="col s12 center-align">
+				<div id="talkbubble" class="relative-position horizontally-centered">
+					<img src="images/headshot-mini.jpg" class="mini-headshot circle responsive-img z-depth-4 absolute-position">
+					<div class="valign-wrapper" style="height: 100%">
+						<p class="center-align" style="margin: 0 auto;"> How to contact me: </p>
+					</div>
+				</div>
+			</div>
+			<div class="col s12">
+				<div class="card hoverable contact-describer horizontally-centered z-depth-2">
+		            <div class="card-content contact-description">
+		            	<div class="row title-row">
+			            	<span class="card-title left contact-title">Personal Contact</span>
+		            	</div>
+		            	<div class="row striped-row">
+			            	<p class="single-line">Phone: <span>(847)274-9994</span></p>
+			            	<p class="single-line">Email: <span><a class="email" href="mailto:robedthomas@yahoo.com">robedthomas@yahoo.com</a></span></p>
+			            	<p class="single-line">Preferred method of contact: <span>Phone</span></p>
+			            	<p class="single-line">Best time to call: <span>11:30pm to 3:00pm Mon-Fri</span></p>
+		            	</div>
+		            </div>
+	            </div>
+        	</div>
     	</div>	
 	</div>
 		<!--References Intro-->
-		<div class="container references-box no-top-padding colorbox dark z-depth-2" style="width: 100%">
+		<div class="container references-box no-top-padding colorbox dark z-depth-2">
 			<div class="valign-wrapper relative-position full-width">
 				<div class="circle tag-background"></div>
 				<div class="valign-wrapper center-align tag-wrapper">

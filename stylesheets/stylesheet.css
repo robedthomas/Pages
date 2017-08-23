@@ -151,6 +151,10 @@ footer a {
 	position: relative;
 }
 
+.absolute-position {
+	position: absolute;
+}
+
 div.centered {
 	margin-left: auto;
 	margin-right: auto;
@@ -165,6 +169,12 @@ p.centered {
 	padding-right: 2em;
 	margin-right: auto;
 	margin-left: auto;
+}
+
+div.horizontally-centered {
+	display: block !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
 }
 
 p.light {
@@ -461,9 +471,14 @@ div.reference-card-container {
 }
 
 div.reference-card-container:after {
-	display:inline-block;
-    width:100%;
-    content:'';
+	display: inline-block;
+    width: 100%;
+    content: '';
+}
+
+img.mini-headshot {
+	top: -.4em;
+	left: -6.4em;
 }
 
 .full-width {
