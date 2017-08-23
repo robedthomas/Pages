@@ -494,3 +494,7 @@ img.mini-headshot {
     width:100%;
     content:'';
 }
+
+footer.page-footer {
+	margin-top: 10px;
+}
