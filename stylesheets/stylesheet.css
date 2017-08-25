@@ -126,6 +126,10 @@ div.colorbox.med div.divider {
 	background-color: #0D1C23;
 }
 
+.indented {
+	text-indent: 3em;
+}
+
 .card.work-describer {
 	background-color: #F7CE3E;
 }
