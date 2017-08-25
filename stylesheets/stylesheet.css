@@ -103,8 +103,27 @@ div.colorbox.dark div.row div.colorbox.med {
 	width: 100%;
 }
 
+div#pitch-container {
+	color: white;
+	background-color: #223138;
+	border: thin solid #0A1612;
+	max-width: 42em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
 .box-title {
 	margin-left: 1rem;
+	font-weight: 200;
+}
+
+div.container.wider {
+	width: 95%;
+	margin-bottom: 1em;
+}
+
+div.colorbox.med div.divider {
+	background-color: #0D1C23;
 }
 
 .card.work-describer {
