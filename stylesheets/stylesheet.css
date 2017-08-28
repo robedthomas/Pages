@@ -36,6 +36,10 @@ div.collapsible-body {
 	border: none;
 }
 
+a.brand-logo {
+	color: #F7CE3E;
+}
+
 ul#nav-mobile li.active {
 	background-color: #1A2930;
 }
@@ -110,6 +114,7 @@ div#pitch-container {
 	max-width: 42em;
 	padding-left: 0.5em;
 	padding-right: 0.5em;
+	margin-bottom: 4em;
 }
 
 .box-title {
