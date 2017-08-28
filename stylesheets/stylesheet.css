@@ -434,13 +434,16 @@ div.card-action.contact-footer{
 }
 
 span.card-title.contact-title {
-	font-weight: 400 !important;
-	font-size: 1.4em;
+	font-weight: 400;
+	font-size: 1.05em;
+	line-height: 160% !important;
 }
 
 span.card-title.contact-title.reference-name {
-	font-weight: 500 !important;
+	font-weight: 500;
 	color: #1A2930;
+	font-size: 1.4em;
+	margin-bottom: 0em;
 }
 
 div.card-content.contact-description div.row.title-row {
@@ -451,6 +454,11 @@ div.card-content.contact-description div.row.title-row {
 	padding-right: 2em;
 	padding-top: 0.5em;
 	border-bottom: solid thin #BBBBBB;
+}
+
+div.card-content.contact-description div.row.title-row div.col {
+	padding-left: 0;
+	padding-right: 0;
 }
 
 div.card-content.contact-description div.row.striped-row {
