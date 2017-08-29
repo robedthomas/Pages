@@ -109,7 +109,7 @@
 							<div class="divider"></div>
 						</div>
 						<!--Julia Sets-->
-						<div class="row">
+						<div class="row" style="margin-bottom: 15%;">
 							<div class="col l4 m6 s12">
 								<div class="card hoverable work-describer z-depth-2">
 						            <div class="card-content work-description">
@@ -123,11 +123,14 @@
 					            </div>
 							</div>
 							<div class="col l8 m6 s12">
-								<img class="responsive-img materialboxed" src="images/juliasetcombo.png">
+								<div class="relative-position">
+									<img class="responsive-img paired-img-bottom materialboxed" src="images/juliaset2.png">
+									<img class="responsive-img paired-img-top materialboxed" src="images/juliaset1.png">
+								</div>
 							</div>
 						</div>
 						<!--Lunar Lander-->
-						<div class="row">
+						<div class="row" style="margin-bottom: 10%;">
 							<div class="col l4 m6 s12">
 								<div class="card hoverable work-describer z-depth-2">
 						            <div class="card-content work-description">
@@ -142,7 +145,10 @@
 					            </div>
 							</div>
 							<div class="col l8 m6 s12">
-								<img class="responsive-img materialboxed" src="images/landercombo.png">
+								<div class="relative-position">
+									<img class="responsive-img paired-img-bottom materialboxed" src="images/lander.png">
+									<img class="responsive-img paired-img-top materialboxed" src="images/lander2.png">
+								</div>
 							</div>
 						</div>
 						<!--Syndrome Decoding-->
@@ -157,7 +163,7 @@
 						            </div>
 						            <div class="card-action work-links">
 							            <a class="work-link" href="https://github.com/robedthomas/SyndromeDecoder">See Code</a>
-							            <a class="work-link" href="#">About Syndrome Decoding</a>
+							            <a class="work-link" href="https://en.wikipedia.org/wiki/Decoding_methods#Syndrome_decoding">About Syndrome Decoding</a>
 						            </div>
 					            </div>
 							</div>
@@ -194,10 +200,15 @@
 	<!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+    <script type="text/javascript" src="javascript/scripts.js"></script>
     <script> 
     	$(document).ready(function(){
     		$(".button-collapse").sideNav();
     	});
+    </script>
+    <script>
+    	window.onload = function () { overlapMaterialboxedImages() };
+    	$(document).ready(overlapMaterialboxedImages());
     </script>
 </body>
 </html>

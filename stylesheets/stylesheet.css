@@ -156,6 +156,24 @@ a.work-link {
 	color: white !important;
 }
 
+img.paired-img-bottom {
+}
+
+div.paired-img-bottom-placeholder {
+	max-width: 75%;
+	max-height: 75%;
+}
+
+img.paired-img-top {
+}
+
+div.paired-img-top-placeholder {
+	max-width: 75%;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+}
+
 footer {
 	color: #0A1612 !important;
 	background-color: #F7CE3E !important;

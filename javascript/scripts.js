@@ -25,3 +25,10 @@ function addPaperRows(classToFill, rowHeight)
 	/* Set the inner HTML of the element to be filled. */
 	$(className).html(html);
 }
+
+function overlapMaterialboxedImages()
+{
+	$(".material-placeholder").addClass("useless-class");
+	$(".material-placeholder").has("img.paired-img-bottom").addClass("paired-img-bottom-placeholder");
+	$(".material-placeholder").has("img.paired-img-top").addClass("paired-img-top-placeholder");
+}
