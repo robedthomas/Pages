@@ -209,6 +209,10 @@ div.centered {
 	transform: translateY(-50%); 
 }
 
+.centered-text {
+	text-align: center;
+}
+
 p.centered {
 	text-align: center;
 	padding-left: 2em;
@@ -221,6 +225,10 @@ div.horizontally-centered {
 	display: block !important;
 	margin-left: auto !important;
 	margin-right: auto !important;
+}
+
+span.light-color {
+	color: #F7CE3E;
 }
 
 p.light {
@@ -237,6 +245,10 @@ p.medium {
 
 p.large {
 	font-size: 18px;
+}
+
+span.bold {
+	font-weight: 500;
 }
 
 div.tag-wrapper {
@@ -273,13 +285,19 @@ i.experience-tag-icon {
 	color: #F7CE3E;
 }
 
-span.project-title {
+span.project-title-right {
 	float: right;
 	color: white;
 	font-size: 1.8em;
 	font-weight: 300;
 	padding-left: 0.5em;
 	border-left: thin solid #DAD6D5;
+}
+
+span.project-title-center {
+	color: white;
+	font-size: 1.8em;
+	font-weight: 300;
 }
 
 div.project-body {
@@ -289,7 +307,7 @@ div.project-body {
 }
 
 div.row.button-row {
-	margin-top: 2em;
+	margin-top: 1.5em;
 	margin-bottom: 0;
 	display: inline-block;
 	width: 100%;
@@ -309,11 +327,15 @@ div.collapsible-header.experience-header {
 
 div.collapsible-body.experience-body {
 	position: relative;
+	margin: 0;
+	padding: 0;
+	padding-top: 20px;
+	line-height: 20px;
 }
 
 div.experience-footer {
 	width: 100%;
-	height: 3.5em;
+	min-height: 3.5em;
 	background-color: #1A2930;
 }
 
@@ -329,14 +351,28 @@ div.experience-footer {
 	margin-right: 5%;
 }
 
+p.experience-contact {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.experience-contact.smaller {
+	font-size: 0.9em;
+}
+
 div.collapsible-body.experience-body div.row.experience-body-row {
-	position: absolute;
+	position: relative;
 	width: 90%;
 	margin-left: 5%;
 	margin-right: 5%;
-	height: 100%;
+	margin-bottom: 0;
+	/*height: 100%;*/
 	top: 0;
 	left: 0;
+}
+
+div.collapsible-body.experience-body div.row.experience-body-row div.col.experience-body-col {
+	margin-bottom: 20px;
 }
 
 div.row.paper-background-row {
@@ -364,7 +400,7 @@ div.row.paper-background-row {
 }*/
 
 div.row.paper-row {
-	height: 25px;
+	min-height: 25px;
 	width: 100%;
 	margin: 0;
 	padding: 0;
@@ -497,6 +533,11 @@ div.card-content.contact-description div.row.striped-row p.single-line {
 
 div.card-content.contact-description div.row.striped-row p.single-line span {
 	font-weight: 400;
+}
+
+a.email {
+	font-style: italic;
+	color: inherit;
 }
 
 div.card-content.contact-description div.row.striped-row p a.email {
