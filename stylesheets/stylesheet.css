@@ -286,12 +286,12 @@ i.experience-tag-icon {
 }
 
 span.project-title-right {
-	float: right;
+	/*float: right;*/
 	color: white;
 	font-size: 1.8em;
 	font-weight: 300;
 	padding-left: 0.5em;
-	border-left: thin solid #DAD6D5;
+	/*border-left: thin solid #DAD6D5;*/
 }
 
 span.project-title-center {
@@ -592,4 +592,14 @@ img.mini-headshot {
 
 footer.page-footer {
 	margin-top: 10px;
+}
+
+div.container.project-container {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+div.container.project-container ul li div.collapsible-header {
+	margin-bottom: 0em;
+	text-align: center;
 }
