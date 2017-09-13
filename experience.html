@@ -65,120 +65,172 @@
 		<ul class="collapsible accordion" data-collapsible="expandable">
 			<li>
 				<div class="collapsible-header active hide-on-small-only">
-					<span class="project-title-right"">Project 1 Name</span>
+					<span class="project-title-right"">Polygon Painter</span>
 				</div>
 				<div class="collapsible-header hide-on-med-and-up centered-text">
-					<span class="project-title-center centered">Project 1 Name</span>
+					<span class="project-title-center centered">Polygon Painter</span>
 				</div>
 				<div class="collapsible-body project-body">
 					<div class="row">
 						<div class="col l7 m12 s12">
-							<p>Project Picture</p>
+							<img src="images/polygons.png" class="responsive-img materialboxed">
 						</div>
 						<div class="col l5 m12 s12">
-							<p>Project Description... ... ...
+							<p>This was a personal project I made which allows the user to easily draw custom polygons. The polygons are all randomly colored. Polygons are created by clicking inside of the window to define the vertices of the polygon. Once the vertices are all defined, the user can press any key except the Backspace key to lock in the polygon. The user can delete the youngest polygon on the screen by pressing the Backspace key.</p>
+							<p>I pursued this project as a way to solidify my skills with Java's AWT library, which is an older library that adds support for constructing GUIs and drawing inside of them. AWT is rarely used today since it has been mostly replaced by the more modern Swing library. However, AWT is an excellent tool for introducing new programmers to the concepts of graphics.</p>
 						</div>
 					</div>
 					<div class="divider grey lighten-1"></div>
 					<div class="row button-row">
 						<div class="button-holder">
-							<a href="#" class="waves-effect waves-light btn-large code-button">View Code</a>
+							<a href="https://github.com/robedthomas/DrawingPolygons" class="waves-effect waves-light btn-large code-button">View Code</a>
 						</div>
 					</div>
 				</div>
 			</li>
 			<li>
 				<div class="collapsible-header hide-on-small-only">
-					<span class="project-title-right"">Project 2 Name</span>
+					<span class="project-title-right"">Detecting Lines</span>
 				</div>
 				<div class="collapsible-header hide-on-med-and-up centered-text">
-					<span class="project-title-center centered">Project 2 Name</span>
+					<span class="project-title-center centered">Detecting Lines</span>
 				</div>
 				<div class="collapsible-body project-body">
 					<div class="row">
 						<div class="col l7 m12 s12">
-							<p>Project Picture</p>
+							<img src="images/detectinglines.png" class="responsive-img materialboxed">
 						</div>
 						<div class="col l5 m12 s12">
-							<p>Project Description... ... ...
+							<p>I completed this project as an assignment for the Algorithms course which I took at EIU. The challenge of the assignment was to parse a set of points in order to find all groups of at least four points that fall on the same line. Three different algorithms of varying efficiency had to be used to complete this problem, and empirical evidence had to be provided to support the student's hypothesis for each algorithm's computational complexity. The algorithms I used to solve this problem are as follows:</p>
+							<ul class="browser-default">
+								<li>Brute: Analyzes every possible four-tuple of points, checking each time for them to fall on the same line. This is the simplest algorithm for solving the given problem, but is also the least efficient. Since for N points there are approximately N^4 four-tuples of these points (actually there are [N C 4] such four-tuples), this algorithm has an abysmal computational complexity of N^4.</li>
+								<li>Better Brute: This is a slightly improved version of the Brute algorithm. It analyzes a pair of points in order to find the slope between the two points, then checks each of the remaining points to find points with the same such slope. Since there are roughly N^2 pairs of points and roughly N points left afterward, this algorith has an improved (but still unfortunate) computational comlpexity of N^3.</li>
+								<li>Fast: This is the most efficient of the algorithms that I used to solve the problem. This problem focuses on one point at a time, sorting each other point into a list in order of their slope from the original point. By traversing this list in search of groups of three or more consecutive points with the same slope from the original point, one can determine four-tuples of points on the same line. Since there are N points and the sorting method has a computational complexity of N log(N), the Fast algorithm has a computational complexity of N^2 log(N).</li>
+							</ul>
 						</div>
 					</div>
 					<div class="divider grey lighten-1"></div>
 					<div class="row button-row">
 						<div class="button-holder">
-							<a href="#" class="waves-effect waves-light btn-large code-button">View Code</a>
+							<a href="https://github.com/robedthomas/DetectingLines" class="waves-effect waves-light btn-large code-button">View Code</a>
 						</div>
 					</div>
 				</div>
 			</li>
 			<li>
 				<div class="collapsible-header hide-on-small-only">
-					<span class="project-title-right"">Project 2 Name</span>
+					<span class="project-title-right"">Calculator</span>
 				</div>
 				<div class="collapsible-header hide-on-med-and-up centered-text">
-					<span class="project-title-center centered">Project 2 Name</span>
+					<span class="project-title-center centered">Calculator</span>
 				</div>
 				<div class="collapsible-body project-body">
 					<div class="row">
 						<div class="col l7 m12 s12">
-							<p>Project Picture</p>
+							<img src="images/calculatorcombo.png" class="responsive-img materialboxed">
 						</div>
 						<div class="col l5 m12 s12">
-							<p>Project Description... ... ...
+							<p>This project was done as part of an assignment for the Computer Science II course I took at EIU. It is a simple calculator GUI built using Java's AWT and Swing libraries. This was the first GUI-based project I undertook and taught me a great deal about modern GUI construction.</p>
+							<p>The calculator uses double-precision floating point values only, which occasionally leads to some mathematical falacies appearing. It features addition, subtraction, multiplication, and division. A single value can also be stored and recalled later using the "Store" and "Restore" buttons.</p>
 						</div>
 					</div>
 					<div class="divider grey lighten-1"></div>
 					<div class="row button-row">
 						<div class="button-holder">
-							<a href="#" class="waves-effect waves-light btn-large code-button">View Code</a>
+							<a href="https://github.com/robedthomas/Calculator" class="waves-effect waves-light btn-large code-button">View Code</a>
 						</div>
 					</div>
 				</div>
 			</li>
 			<li>
 				<div class="collapsible-header hide-on-small-only">
-					<span class="project-title-right"">Project 2 Name</span>
+					<span class="project-title-right"">Julia Sets</span>
 				</div>
 				<div class="collapsible-header hide-on-med-and-up centered-text">
-					<span class="project-title-center centered">Project 2 Name</span>
+					<span class="project-title-center centered">Julia Sets</span>
 				</div>
 				<div class="collapsible-body project-body">
 					<div class="row">
 						<div class="col l7 m12 s12">
-							<p>Project Picture</p>
+							<img src="images/juliasetcombo.png" class="responsive-img materialboxed">
 						</div>
 						<div class="col l5 m12 s12">
-							<p>Project Description... ... ...
+							<p>This is a project done entirely in C which renders and displays a Julia set. Julia sets are beautifully intricate mathematical fractals which exist in the complex plane. They are generated by applying a particular mapping (often called c) to each point on the complex plane repeatedly. The points that do not converge to a limit are said to be inside the Julia set. In the picture to the left, points in the Julia set are in black, points that are almost in the Julia set are bright, and points that are clearly not in the Julia set are darker. </p><p>Each Julia set is defined by the mapping that is applied (which is a function from the complex plane to the complex plane). This program allows the user to specify this mapping, thus allowing any Julia set to be rendered. The user may also choose the size of the display window, the size of the chunk of the complex plane to be displayed, and the point on the complex plane to center around. Some interesting mapping functions are: c = 0.285 + 0i, c = -07269 + 0.1889i, and c = -0.8 + 0.1560i.</p>
+							<p>All of my C applications were built in the Ubuntu environment, but they come with Makefiles which can build in both Ubuntu and Mac environments. Unfortunately, most Windows environments have very limited support for C applications, so constructing these applications in a Windows environment will probably take much more work than what I detail here. In order to build the application, open a command prompt and navigate to the directory with the .c files, .h files, and the Makefile. Then, simply execute the command "make" inside of the command prompt. An object file (.o file extension) should be constructed which can then be executed.</p>
+							<p>When you run this application, it will expect nine command line arguments, in the following order:</p>
+							<ol class="browser-default">
+								<li>The width (in pixels) of the window in which the Julia set will 
+				 be displayed</li>
+				 				<li>The height (in pixels) of the window in which the Julia set will 
+				  be displayed</li>
+				  				<li>The width (on the real number line) of the complex plane to be examined</li>
+				  				<li>The height (on the real number line) of the complex plane to be examined</li>
+				  				<li>The value on the X axis of the complex plane which the image of the 
+			 Julia set will be centered on</li>
+			 					<li>The value on the Y axis of the complex plane which the image of the 
+			 Julia set will be centered on</li>
+			 					<li>The real component of the complex constant C, which is a property that
+	   characterizes each Julia set</li>
+	   							<li>The imaginary component of the complex constant C</li>
+	   							<li>The number of threads to be used to process the Julia set</li>
+							</ol>
 						</div>
 					</div>
 					<div class="divider grey lighten-1"></div>
 					<div class="row button-row">
 						<div class="button-holder">
-							<a href="#" class="waves-effect waves-light btn-large code-button">View Code</a>
+							<a href="https://github.com/robedthomas/JuliaSets" class="waves-effect waves-light btn-large code-button">View Code</a>
 						</div>
 					</div>
 				</div>
 			</li>
 			<li>
 				<div class="collapsible-header hide-on-small-only">
-					<span class="project-title-right"">Project 2 Name</span>
+					<span class="project-title-right"">Syndrome Decoder</span>
 				</div>
 				<div class="collapsible-header hide-on-med-and-up centered-text">
-					<span class="project-title-center centered">Project 2 Name</span>
+					<span class="project-title-center centered">Syndrome Decoder</span>
 				</div>
 				<div class="collapsible-body project-body">
 					<div class="row">
 						<div class="col l7 m12 s12">
-							<p>Project Picture</p>
+							<img src="images/syndromes.png" class="responsive-img materialboxed">
 						</div>
 						<div class="col l5 m12 s12">
-							<p>Project Description... ... ...
+							<p>This is a C project which I completed as an assignment for the Coding Theory course offered at EIU. The course's main focus is on correcting errors in messages of bits which have been transmitted over an imperfect line of communication. The basic concept is that we can detect if an error has occurred by only using a fraction of the possible messages allowed by the message size. For instance, say we only wanted to send three-letter-words to someone but we knew that some of the letters might get replaced with other ones when we sent the word. By increasing the size of the messages to six letters while still only sending three-letter-words, we can now receive invalid messages (messages that don't contain a three-letter-word) and thus can determine if an error has occurred during transmission. The concept in Coding Theory is the same, except using individual bits instead of letters.</p>
+							<p>Syndrome decoding is a powerful algorithm which converts erroneous messages to the keyword that they most likely were before being sent. It operates on messages that were produced by a linear code (a code defined by a generator matrix) and were passed through a noisy channel (a channel which can produce errors in the messages, such as flipping a bit). The algorithm determines the shortest distance from the erroneous message received to a valid keyword, thus yielding the most likely keyword. The nitty-gritty of how the algorithm operates can be seen inside the code I have posted on Github and linked below, in the file SyndromeDecoding.c.</p>
 						</div>
 					</div>
 					<div class="divider grey lighten-1"></div>
 					<div class="row button-row">
 						<div class="button-holder">
-							<a href="#" class="waves-effect waves-light btn-large code-button">View Code</a>
+							<a href="https://github.com/robedthomas/SyndromeDecoder" class="waves-effect waves-light btn-large code-button">View Code</a>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="collapsible-header hide-on-small-only">
+					<span class="project-title-right"">Lunar Lander</span>
+				</div>
+				<div class="collapsible-header hide-on-med-and-up centered-text">
+					<span class="project-title-center centered">Lunar Lander</span>
+				</div>
+				<div class="collapsible-body project-body">
+					<div class="row">
+						<div class="col l7 m12 s12">
+							<img src="images/landercombo.png" class="responsive-img materialboxed">
+						</div>
+						<div class="col l5 m12 s12">
+							<p>This is another of my projects done completely in C. It is a recreation of the classic arcade game Lunar Lander. This projecy was an assignment for the Topics in C course that I took at EIU. The assignment's twist was that the game had to be improved with a new feature. I chose to add a feature that would allow players to design and play on their own maps. This is achieved by passing in an input file to the game which contains a list of vertices such that the lines between these vertices define the game's terrain. This paves the way for other features to be added in the future such as procedurally generated maps or a graphical interface to simplify building maps.</p>
+							<p>Since I previously had limited experience in working with graphics, constructing this game provided a lot of interesting challenges. These challenges include tracking the lander as it moved near the edge of the screen, displaying flashing text, and even producing my own sound effects for the lander's boost and crashing. By far the most difficult problem I encountered was in displaying the level as the lander looped from the front edge of the terrain to the back edge of the terrain (moving left). In the end, this project provided a great lesson in patience and paying strict attention to edge cases.</p>
+							<p>I used the <a href="https://www.libsdl.org/">Simple Directmedia Layer (SDL) library</a> in the making of this game. SDL is C library which provides simple functionality for interacting with hardware. SDL was used primarily for processing keyboard inputs, displaying the game, and playing sound effects.</p>
+						</div>
+					</div>
+					<div class="divider grey lighten-1"></div>
+					<div class="row button-row">
+						<div class="button-holder">
+							<a href="https://github.com/robedthomas/LunarLander" class="waves-effect waves-light btn-large code-button">View Code</a>
 						</div>
 					</div>
 				</div>

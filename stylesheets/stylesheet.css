@@ -16,6 +16,22 @@ li, a {
 	text-align: center;
 }
 
+ul.browser-default {
+	list-style-type: none !important;
+}
+
+ol.browser-default {
+	list-style-type: decimal !important;
+}
+
+ul.browser-default li {
+	list-style-type: initial;
+}
+
+ol.browser-default li {
+	list-style-type: decimal;
+}
+
 ul.collapsible {
 	border: none;
 }
@@ -24,6 +40,10 @@ ul.collapsible li {
 	display: initial;
 	text-align: left;
 	border: none;
+}
+
+ul.collapsible li li {
+	display: list-item;
 }
 
 div.collapsible-header {
@@ -184,7 +204,7 @@ footer {
 	background-color: #0A1612 !important;
 }
 
-footer a {
+a {
 	color: #0A1612;
 	font-weight: 300;
 }
